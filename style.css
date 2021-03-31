@@ -493,6 +493,9 @@ border: 1px solid #eee;
   text-align: left;
   font-family: Perpetua;
 }
+.most-popular-helvetica{
+  text-align: left;
+}
 .flex-container-aside a {
   text-decoration: none;
 }

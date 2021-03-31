@@ -3,8 +3,8 @@
 > This is a clone of the New York Times Article.
 
 ![Screenshot]
-![Header]()
-![Footer]()
+![Header](./img/header.png)
+![Footer](./img/footer.png)
 
 
 This is the first html-css project in the Microverse curriculum.
