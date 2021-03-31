@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* stylelint-disable */
 body {
   font-family: nyt-franklin, helvetica, arial, "Lato" sans-serif;
   font-weight: 400;
@@ -12,6 +13,8 @@ body {
   color: rgb(90, 88, 88);
   margin: 0;
 }
+/* stylelint-enable */
+
 hr {
   width: 100%;
   color: var(--border-gray);
@@ -19,17 +22,21 @@ hr {
   border-left: 0;
   border-right: 0;
 }
+
 p,
 h2 {
  margin: 0;
 }
+
 a {
  color: black;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 p > a {
   color: var(--link-blue);
   text-decoration: underline;
@@ -37,6 +44,7 @@ p > a {
 p > a:hover {
   text-decoration: none;
 }
+
 button {
   border: 1px solid #376f99;
   border-radius: 3px;
@@ -49,27 +57,33 @@ button {
   letter-spacing: 0.05em;
   transition: all 0.6s ease 0s;
 }
+
 button:hover {
  border: 1px solid #326891;
  background-color: #326891;
- cursor: pointer;
+ cursor:pointer;
 }
+
 img {
   width: 100%;
   overflow: hidden;
   margin: 0;
 }
+
 figure {
   margin: 0;
 }
+
 .gray,
 .gray a {
   color: #666;
 }
+
 .ion-icon {
   margin: 0;
   padding: 0;
 }
+
 header {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -84,6 +98,7 @@ header {
   z-index: 1;
  background: #fff;
 }
+
 .logo-center img {
   width: 15em;
   height: 1.8em;
@@ -373,6 +388,7 @@ padding: 0.5em 0.6em;
 vertical-align: middle;
 border: 1px solid #eee;
 }
+
 /*  Footer  */
 
 .flex-container {
@@ -393,6 +409,7 @@ border: 1px solid #eee;
   align-content: center;
   flex-wrap: wrap;
 }
+
 .port {
   display: flex;
   align-content: center;
@@ -440,6 +457,7 @@ border: 1px solid #eee;
   width: 60px;
   height: 60px;
 }
+
 .svg-img {
   width: 20px;
   height: 20px;
@@ -470,16 +488,19 @@ border: 1px solid #eee;
   border-width: 2px;
   border-color: #000;
 }
+
 .more-astro-one {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .more-astro-two {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .more-astro-three {
   display: flex;
   flex-direction: row;
@@ -494,17 +515,22 @@ border: 1px solid #eee;
   text-align: left;
   font-family: Perpetua;
 }
+
 .most-popular-helvetica{
   text-align: left;
 }
+
 .flex-container-aside a {
   text-decoration: none;
 }
+
 footer {
   margin: 2vh 6%;
 }
+
 .footer-nav {
 }
+
 .footer-hr {
   border-top: 2px solid var(--border-gray);
   border-bottom: 1px solid var(--border-gray);
@@ -554,6 +580,7 @@ footer {
 .li-special {
   font-weight: bold;
 }
+
 .li-special img {
   width: 15px;
   height: 15px;
