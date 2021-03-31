@@ -33,12 +33,12 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+p > a {
+  color: var(--link-blue);
   text-decoration: underline;
 }
 
-p > a {
-  color: var(--link-blue);
+a:hover {
   text-decoration: underline;
 }
 
@@ -62,7 +62,7 @@ button {
 button:hover {
   border: 1px solid #326891;
   background-color: #326891;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 img {
@@ -75,10 +75,12 @@ figure {
   margin: 0;
 }
 
+/* stylelint-disable */
 .gray,
 .gray a {
   color: #666;
 }
+/* stylelint-enable */
 
 .ion-icon {
   margin: 0;
@@ -178,7 +180,6 @@ main h1 {
 
 .social-icons {
   display: flex;
-  width: ;
 }
 
 .social-icons i {
@@ -228,6 +229,7 @@ main h1 {
   max-width: 350px;
 }
 
+/* stylelint-disable */
 .aside-info {
   margin-bottom: 15px;
   font-weight: 500;
@@ -237,6 +239,7 @@ main h1 {
   justify-content: space-between;
   align-items: center;
 }
+/* stylelint-enable*/
 
 .main-content-aside h3 {
   padding-bottom: 12px;
@@ -252,7 +255,7 @@ main h1 {
   margin-right: 10px;
 }
 
-.subscription{
+.subscription {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 40%;
@@ -260,13 +263,14 @@ main h1 {
   font-size: 12px;
 }
 
-.subscription-hr{
+.subscription-hr {
   width: 20%;
   margin: auto;
 }
 
 /* Article */
 
+/* stylelint-disable */
 main p {
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -274,6 +278,7 @@ main p {
   width: 70%;
   margin: 0 auto;
 }
+/* stylelint-enable */
 
 .medium {
   font-size: 15px;
@@ -285,10 +290,12 @@ main p {
   line-height: 14px;
 }
 
+/* stylelint-disable */
 .author a {
   text-decoration: underline;
   text-decoration-color: lightgray;
 }
+/* stylelint-enable */
 
 .author a:hover {
   text-decoration: none;
@@ -296,6 +303,7 @@ main p {
 
 /* Theory of inflation section */
 
+/* stylelint-disable */
 .diagram-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -303,7 +311,7 @@ main p {
   column-gap: 20px;
   margin-top: 2vh;
 }
-
+/* stylelint-enable */
 .diagram-container img {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
@@ -319,10 +327,12 @@ main p {
   color: #313131;
 }
 
+/* stylelint-disable */
 .theory-of-inflation strong {
   color: #000;
   text-transform: capitalize bold;
 }
+/* stylelint-enable */
 
 .theory-of-inflation {
   margin: 3vh 0;
@@ -482,16 +492,17 @@ main p {
   justify-content: space-between;
 }
 
+/* stylelint-disable*/
 .news-border {
   width: 32%;
   height: 100%;
   padding: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border: 1px solid rgb(221, 215, 215);
-  border: 1px solid rgb(221, 215, 215);
   font-family: Optima, sans-serif;
   font-size: 16px;
 }
+/* stylelint-enable*/
 
 .plus {
   margin-left: 20px;
@@ -521,6 +532,7 @@ main p {
   justify-content: space-between;
 }
 
+/* stylelint-disable */
 .flex-container-aside {
   position: absolute;
   right: 0;
@@ -529,20 +541,20 @@ main p {
   text-align: left;
   font-family: Perpetua;
 }
+/* stylelint-enable */
 
-.most-popular-helvetica{
+.most-popular-helvetica {
   text-align: left;
 }
 
+/* stylelint-disable */
 .flex-container-aside a {
   text-decoration: none;
 }
+/* stylelint-enable*/
 
 footer {
   margin: 2vh 6%;
-}
-
-.footer-nav {
 }
 
 .footer-hr {
@@ -584,12 +596,14 @@ footer {
   justify-self: end;
 }
 
+/* stylelint-disable */
 .list-footer {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 1vh;
   font-family: arial;
 }
+/* stylelint-enable */
 
 .li-special {
   font-weight: bold;
@@ -628,9 +642,11 @@ footer {
   margin-bottom: 3vh;
 }
 
+/* stylelint-disable */
 .footer-info li {
   display: inline-block;
   margin-left: 8px;
   margin-right: 8px;
   font-family: arial;
 }
+/* stylelint-enable */
