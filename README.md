@@ -1,8 +1,11 @@
 # first-project-microverse
 
 > This is a clone of the New York Times Article.
+
 To view it, click [here](http://127.0.0.1:5500/index.html)
+
 You may view the original page[here](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+
 
 ![Screenshot]
 ![Header](./img/header.png)
