@@ -41,6 +41,7 @@ p > a {
   color: var(--link-blue);
   text-decoration: underline;
 }
+
 p > a:hover {
   text-decoration: none;
 }
@@ -117,8 +118,8 @@ header {
 }
 
 .first-main-img {
-  width: 900;
-  height: 500;
+  width: 900px;
+  height: 500px;
 }
 
 .head-left .fas:hover {
@@ -201,8 +202,8 @@ main h1 {
 }
 
 .diagram-container {
-  width: 800;
-  height: 400;
+  width: 1000px;
+  height: 600px;
 }
 
 .sign-up {
