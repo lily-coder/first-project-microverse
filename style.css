@@ -252,6 +252,19 @@ main h1 {
   margin-right: 10px;
 }
 
+.subscription{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 40%;
+  margin: auto;
+  font-size: 12px;
+}
+
+.subscription-hr{
+  width: 20%;
+  margin: auto;
+}
+
 /* Article */
 
 main p {
